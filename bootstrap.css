@@ -1,0 +1,64 @@
+/*COLOR DE LOGO Y BOTON #0D6EFD*/
+header {
+  background: #5D90F7;
+}
+
+#logo{
+  font-weight: bold;
+  font-size: 23px; 
+  font-family: sans-serif,Arial;
+}
+body{
+ font-family: sans-serif,Arial !important; 
+}
+#menu{
+  font-family: sans-serif,Arial;
+  color: black;
+}
+#menu button{
+  font-weight: bold;
+ font-family: sans-serif,Arial;
+ font-size: 13px; 
+}
+#contact a {
+  font-weight: bold;
+
+}
+.carousel-inner{
+  max-height: 39rem;
+}
+
+/*pantalla media*/
+@media (max-width: 768%){
+  #intro #equipo{
+    width: 90% !important; 
+  }
+  #intro h3{
+    font-size: 15px !important;
+  }
+  .filas{
+    width: 100% !important;
+    text-align: center;
+  }
+  #equipo p{
+    font-size: 15px !important;
+    width: 100%;
+    height: 10%;
+  }
+  /*mapa y propostico*/
+  .mapa{
+    display: flex;
+    justify-content: center;
+  }
+}
+/*pantalla ms*/
+@media (max-width: 576px){
+  .icono-wrap{
+    flex-wrap: wrap;
+    justify-content: center !important;
+  }
+  #pronostico{
+    display: none;
+  }
+}
+
